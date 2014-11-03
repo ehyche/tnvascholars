@@ -40,7 +40,7 @@
     } else {
         // At least one of the text fields is blank
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Activity Error"
-                                                            message:@"One of the fields is blank. Please re-enter."
+                                                            message:@"One of the fields is blank."
                                                            delegate:nil
                                                   cancelButtonTitle:@"OK"
                                                   otherButtonTitles:nil];
