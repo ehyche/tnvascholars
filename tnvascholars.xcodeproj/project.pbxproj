@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD2A3F9F195874CB00FDA7D0 /* TNActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2A3F9E195874CB00FDA7D0 /* TNActivity.m */; };
+		FD8FED11194F31F400D65B67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8FED10194F31F400D65B67 /* Foundation.framework */; };
+		FD8FED13194F31F400D65B67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8FED12194F31F400D65B67 /* CoreGraphics.framework */; };
+		FD8FED15194F31F400D65B67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8FED14194F31F400D65B67 /* UIKit.framework */; };
+		FD8FED1B194F31F400D65B67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD8FED19194F31F400D65B67 /* InfoPlist.strings */; };
+		FD8FED1D194F31F400D65B67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8FED1C194F31F400D65B67 /* main.m */; };
+		FD8FED21194F31F400D65B67 /* TNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8FED20194F31F400D65B67 /* TNAppDelegate.m */; };
+		FD8FED24194F31F400D65B67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8FED22194F31F400D65B67 /* Main.storyboard */; };
+		FD8FED27194F31F400D65B67 /* TNMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8FED26194F31F400D65B67 /* TNMasterViewController.m */; };
+		FD8FED2A194F31F400D65B67 /* TNDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8FED29194F31F400D65B67 /* TNDetailViewController.m */; };
+		FD8FED2C194F31F400D65B67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8FED2B194F31F400D65B67 /* Images.xcassets */; };
+		FD8FED33194F31F400D65B67 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8FED32194F31F400D65B67 /* XCTest.framework */; };
+		FD8FED34194F31F400D65B67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8FED10194F31F400D65B67 /* Foundation.framework */; };
+		FD8FED35194F31F400D65B67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8FED14194F31F400D65B67 /* UIKit.framework */; };
+		FD8FED3D194F31F400D65B67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD8FED3B194F31F400D65B67 /* InfoPlist.strings */; };
+		FD8FED3F194F31F400D65B67 /* tnvascholarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8FED3E194F31F400D65B67 /* tnvascholarsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD8FED36194F31F400D65B67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD8FED05194F31F400D65B67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD8FED0C194F31F400D65B67;
+			remoteInfo = tnvascholars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD2A3F9D195874CB00FDA7D0 /* TNActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNActivity.h; sourceTree = "<group>"; };
+		FD2A3F9E195874CB00FDA7D0 /* TNActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNActivity.m; sourceTree = "<group>"; };
+		FD8FED0D194F31F400D65B67 /* tnvascholars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tnvascholars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8FED10194F31F400D65B67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD8FED12194F31F400D65B67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FD8FED14194F31F400D65B67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FD8FED18194F31F400D65B67 /* tnvascholars-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tnvascholars-Info.plist"; sourceTree = "<group>"; };
+		FD8FED1A194F31F400D65B67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD8FED1C194F31F400D65B67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD8FED1E194F31F400D65B67 /* tnvascholars-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tnvascholars-Prefix.pch"; sourceTree = "<group>"; };
+		FD8FED1F194F31F400D65B67 /* TNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNAppDelegate.h; sourceTree = "<group>"; };
+		FD8FED20194F31F400D65B67 /* TNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNAppDelegate.m; sourceTree = "<group>"; };
+		FD8FED23194F31F400D65B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD8FED25194F31F400D65B67 /* TNMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNMasterViewController.h; sourceTree = "<group>"; };
+		FD8FED26194F31F400D65B67 /* TNMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNMasterViewController.m; sourceTree = "<group>"; };
+		FD8FED28194F31F400D65B67 /* TNDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNDetailViewController.h; sourceTree = "<group>"; };
+		FD8FED29194F31F400D65B67 /* TNDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNDetailViewController.m; sourceTree = "<group>"; };
+		FD8FED2B194F31F400D65B67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD8FED31194F31F400D65B67 /* tnvascholarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tnvascholarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8FED32194F31F400D65B67 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FD8FED3A194F31F400D65B67 /* tnvascholarsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tnvascholarsTests-Info.plist"; sourceTree = "<group>"; };
+		FD8FED3C194F31F400D65B67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD8FED3E194F31F400D65B67 /* tnvascholarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tnvascholarsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD8FED0A194F31F400D65B67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8FED13194F31F400D65B67 /* CoreGraphics.framework in Frameworks */,
+				FD8FED15194F31F400D65B67 /* UIKit.framework in Frameworks */,
+				FD8FED11194F31F400D65B67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD8FED2E194F31F400D65B67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8FED33194F31F400D65B67 /* XCTest.framework in Frameworks */,
+				FD8FED35194F31F400D65B67 /* UIKit.framework in Frameworks */,
+				FD8FED34194F31F400D65B67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD8FED04194F31F400D65B67 = {
+			isa = PBXGroup;
+			children = (
+				FD8FED16194F31F400D65B67 /* tnvascholars */,
+				FD8FED38194F31F400D65B67 /* tnvascholarsTests */,
+				FD8FED0F194F31F400D65B67 /* Frameworks */,
+				FD8FED0E194F31F400D65B67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD8FED0E194F31F400D65B67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD8FED0D194F31F400D65B67 /* tnvascholars.app */,
+				FD8FED31194F31F400D65B67 /* tnvascholarsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD8FED0F194F31F400D65B67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD8FED10194F31F400D65B67 /* Foundation.framework */,
+				FD8FED12194F31F400D65B67 /* CoreGraphics.framework */,
+				FD8FED14194F31F400D65B67 /* UIKit.framework */,
+				FD8FED32194F31F400D65B67 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD8FED16194F31F400D65B67 /* tnvascholars */ = {
+			isa = PBXGroup;
+			children = (
+				FD8FED1F194F31F400D65B67 /* TNAppDelegate.h */,
+				FD8FED20194F31F400D65B67 /* TNAppDelegate.m */,
+				FD8FED22194F31F400D65B67 /* Main.storyboard */,
+				FD8FED25194F31F400D65B67 /* TNMasterViewController.h */,
+				FD8FED26194F31F400D65B67 /* TNMasterViewController.m */,
+				FD8FED28194F31F400D65B67 /* TNDetailViewController.h */,
+				FD8FED29194F31F400D65B67 /* TNDetailViewController.m */,
+				FD8FED2B194F31F400D65B67 /* Images.xcassets */,
+				FD8FED17194F31F400D65B67 /* Supporting Files */,
+				FD2A3F9D195874CB00FDA7D0 /* TNActivity.h */,
+				FD2A3F9E195874CB00FDA7D0 /* TNActivity.m */,
+			);
+			path = tnvascholars;
+			sourceTree = "<group>";
+		};
+		FD8FED17194F31F400D65B67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD8FED18194F31F400D65B67 /* tnvascholars-Info.plist */,
+				FD8FED19194F31F400D65B67 /* InfoPlist.strings */,
+				FD8FED1C194F31F400D65B67 /* main.m */,
+				FD8FED1E194F31F400D65B67 /* tnvascholars-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD8FED38194F31F400D65B67 /* tnvascholarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD8FED3E194F31F400D65B67 /* tnvascholarsTests.m */,
+				FD8FED39194F31F400D65B67 /* Supporting Files */,
+			);
+			path = tnvascholarsTests;
+			sourceTree = "<group>";
+		};
+		FD8FED39194F31F400D65B67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD8FED3A194F31F400D65B67 /* tnvascholarsTests-Info.plist */,
+				FD8FED3B194F31F400D65B67 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD8FED0C194F31F400D65B67 /* tnvascholars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD8FED42194F31F400D65B67 /* Build configuration list for PBXNativeTarget "tnvascholars" */;
+			buildPhases = (
+				FD8FED09194F31F400D65B67 /* Sources */,
+				FD8FED0A194F31F400D65B67 /* Frameworks */,
+				FD8FED0B194F31F400D65B67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tnvascholars;
+			productName = tnvascholars;
+			productReference = FD8FED0D194F31F400D65B67 /* tnvascholars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD8FED30194F31F400D65B67 /* tnvascholarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD8FED45194F31F400D65B67 /* Build configuration list for PBXNativeTarget "tnvascholarsTests" */;
+			buildPhases = (
+				FD8FED2D194F31F400D65B67 /* Sources */,
+				FD8FED2E194F31F400D65B67 /* Frameworks */,
+				FD8FED2F194F31F400D65B67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD8FED37194F31F400D65B67 /* PBXTargetDependency */,
+			);
+			name = tnvascholarsTests;
+			productName = tnvascholarsTests;
+			productReference = FD8FED31194F31F400D65B67 /* tnvascholarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD8FED05194F31F400D65B67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Sullivan Countty";
+				TargetAttributes = {
+					FD8FED30194F31F400D65B67 = {
+						TestTargetID = FD8FED0C194F31F400D65B67;
+					};
+				};
+			};
+			buildConfigurationList = FD8FED08194F31F400D65B67 /* Build configuration list for PBXProject "tnvascholars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD8FED04194F31F400D65B67;
+			productRefGroup = FD8FED0E194F31F400D65B67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD8FED0C194F31F400D65B67 /* tnvascholars */,
+				FD8FED30194F31F400D65B67 /* tnvascholarsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD8FED0B194F31F400D65B67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8FED2C194F31F400D65B67 /* Images.xcassets in Resources */,
+				FD8FED1B194F31F400D65B67 /* InfoPlist.strings in Resources */,
+				FD8FED24194F31F400D65B67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD8FED2F194F31F400D65B67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8FED3D194F31F400D65B67 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD8FED09194F31F400D65B67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8FED21194F31F400D65B67 /* TNAppDelegate.m in Sources */,
+				FD8FED27194F31F400D65B67 /* TNMasterViewController.m in Sources */,
+				FD8FED1D194F31F400D65B67 /* main.m in Sources */,
+				FD8FED2A194F31F400D65B67 /* TNDetailViewController.m in Sources */,
+				FD2A3F9F195874CB00FDA7D0 /* TNActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD8FED2D194F31F400D65B67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8FED3F194F31F400D65B67 /* tnvascholarsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD8FED37194F31F400D65B67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD8FED0C194F31F400D65B67 /* tnvascholars */;
+			targetProxy = FD8FED36194F31F400D65B67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD8FED19194F31F400D65B67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD8FED1A194F31F400D65B67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FD8FED22194F31F400D65B67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD8FED23194F31F400D65B67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD8FED3B194F31F400D65B67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD8FED3C194F31F400D65B67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD8FED40194F31F400D65B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD8FED41194F31F400D65B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD8FED43194F31F400D65B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tnvascholars/tnvascholars-Prefix.pch";
+				INFOPLIST_FILE = "tnvascholars/tnvascholars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FD8FED44194F31F400D65B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tnvascholars/tnvascholars-Prefix.pch";
+				INFOPLIST_FILE = "tnvascholars/tnvascholars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FD8FED46194F31F400D65B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tnvascholars.app/tnvascholars";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tnvascholars/tnvascholars-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tnvascholarsTests/tnvascholarsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FD8FED47194F31F400D65B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tnvascholars.app/tnvascholars";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tnvascholars/tnvascholars-Prefix.pch";
+				INFOPLIST_FILE = "tnvascholarsTests/tnvascholarsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD8FED08194F31F400D65B67 /* Build configuration list for PBXProject "tnvascholars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8FED40194F31F400D65B67 /* Debug */,
+				FD8FED41194F31F400D65B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD8FED42194F31F400D65B67 /* Build configuration list for PBXNativeTarget "tnvascholars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8FED43194F31F400D65B67 /* Debug */,
+				FD8FED44194F31F400D65B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD8FED45194F31F400D65B67 /* Build configuration list for PBXNativeTarget "tnvascholarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8FED46194F31F400D65B67 /* Debug */,
+				FD8FED47194F31F400D65B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD8FED05194F31F400D65B67 /* Project object */;
+}
