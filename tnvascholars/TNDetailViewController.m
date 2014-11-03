@@ -39,7 +39,7 @@
         [self.delegate userTappedDone:self];
     } else {
         // At least one of the text fields is blank
-        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Activity Error"
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Activity Entry Error"
                                                             message:@"One of the fields is blank."
                                                            delegate:nil
                                                   cancelButtonTitle:@"OK"
